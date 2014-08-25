@@ -11,7 +11,7 @@ This is IOS verison for BeaconBabe.  This is a native app written with Objective
 
 You can find our presentation here: [http://www.slideshare.net/AK51/beaconbabe-on-ha](http://www.slideshare.net/AK51/beaconbabe-on-ha)
 
-Contributors
+##Contributors##
 
 Andy Kong: [andykong51@gmail.com](mailto:andykong51@gmail.com)  
 Matthew Chiu: [mchiu77@gmail.com](mailto:mchiu77@gmail.com)   

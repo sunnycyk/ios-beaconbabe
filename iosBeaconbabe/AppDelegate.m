@@ -7,12 +7,26 @@
 //
 
 #import "AppDelegate.h"
+//#import "DefinedBeacon.h"
+//@import CoreLocation;
+
+@interface AppDelegate() 
+//@property (strong, nonatomic) CLLocationManager *locationManager;
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   /* self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:[DefinedBeacon beaconUUID]];
+    CLBeaconRegion *beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"beaconbabe"];
+    // [self.locationManager startMonitoringForRegion:beaconRegion];
+    [self.locationManager startRangingBeaconsInRegion:beaconRegion];
+    
+    [[UIApplication sharedApplication] cancelAllLocalNotifications];*/
     return YES;
 }
 							
@@ -42,5 +56,43 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+/*
+#pragma mark CLLocationManagerDelegate
+-(void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
+    CLBeaconRegion *beaconRegion = (CLBeaconRegion *)region;
+    NSLog(@"AppDelegate: Enter Region major: %d minor: %d", beaconRegion.major.intValue, beaconRegion.minor.intValue);
+    if ([region isKindOfClass:[CLBeaconRegion class]]) {
+        [manager startRangingBeaconsInRegion:beaconRegion];
+    }
+}
+
+-(void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
+    NSLog(@"AppDelegate: Exit Region");
+    if ([region isKindOfClass:[CLBeaconRegion class]]) {
+        [manager stopRangingBeaconsInRegion:(CLBeaconRegion *) region];
+    }
+}
+
+-(void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region {
+    
+    for (CLBeacon *beacon in beacons) {
+        NSLog(@"AppDelegate @door");
+        if (beacon.major.intValue == [DefinedBeacon beaconRegionMajor:@"door"] && beacon.rssi > -65 && beacon.rssi)  {
+            // close to the door
+            NSLog(@"AppDelegate @door");
+           [manager stopRangingBeaconsInRegion:region]; // stop ranging region
+            
+            
+        }
+    }
+    
+}*/
+
+
+
+
+
 
 @end

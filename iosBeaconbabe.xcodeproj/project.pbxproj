@@ -21,6 +21,17 @@
 		A3C065D619A1DABA00280FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C065B819A1DAB900280FA0 /* UIKit.framework */; };
 		A3C065DE19A1DABA00280FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C065DC19A1DABA00280FA0 /* InfoPlist.strings */; };
 		A3C065E019A1DABA00280FA0 /* iosBeaconbabeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C065DF19A1DABA00280FA0 /* iosBeaconbabeTests.m */; };
+		A3C065EA19A1DB5900280FA0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C065E919A1DB5900280FA0 /* CoreBluetooth.framework */; };
+		A3C065EC19A1DB6000280FA0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C065EB19A1DB6000280FA0 /* CoreLocation.framework */; };
+		A3C065EF19A1F3CD00280FA0 /* BeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C065EE19A1F3CD00280FA0 /* BeaconViewController.m */; };
+		A3C065F119A31E0700280FA0 /* QRcode1_320x480_new.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C065F019A31E0700280FA0 /* QRcode1_320x480_new.png */; };
+		A3C065F319A31EA100280FA0 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3C065F219A31EA100280FA0 /* images.jpeg */; };
+		A3C065F619A3204D00280FA0 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C065F519A3204D00280FA0 /* ShopViewController.m */; };
+		A3C065F819A322EA00280FA0 /* beef.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3C065F719A322EA00280FA0 /* beef.jpeg */; };
+		A3C065FB19A322FF00280FA0 /* DealOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C065FA19A322FF00280FA0 /* DealOfferViewController.m */; };
+		A3C065FE19A324B100280FA0 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C065FD19A324B100280FA0 /* QRViewController.m */; };
+		A3C0660119A327E600280FA0 /* MatchedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0660019A327E600280FA0 /* MatchedViewController.m */; };
+		A3C0660419A3462C00280FA0 /* DefinedBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0660319A3462C00280FA0 /* DefinedBeacon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,23 @@
 		A3C065DB19A1DABA00280FA0 /* iosBeaconbabeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosBeaconbabeTests-Info.plist"; sourceTree = "<group>"; };
 		A3C065DD19A1DABA00280FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3C065DF19A1DABA00280FA0 /* iosBeaconbabeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosBeaconbabeTests.m; sourceTree = "<group>"; };
+		A3C065E919A1DB5900280FA0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A3C065EB19A1DB6000280FA0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A3C065ED19A1F3CD00280FA0 /* BeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		A3C065EE19A1F3CD00280FA0 /* BeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconViewController.m; sourceTree = "<group>"; };
+		A3C065F019A31E0700280FA0 /* QRcode1_320x480_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRcode1_320x480_new.png; sourceTree = "<group>"; };
+		A3C065F219A31EA100280FA0 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		A3C065F419A3204D00280FA0 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		A3C065F519A3204D00280FA0 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		A3C065F719A322EA00280FA0 /* beef.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpeg; sourceTree = "<group>"; };
+		A3C065F919A322FF00280FA0 /* DealOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealOfferViewController.h; sourceTree = "<group>"; };
+		A3C065FA19A322FF00280FA0 /* DealOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealOfferViewController.m; sourceTree = "<group>"; };
+		A3C065FC19A324B100280FA0 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		A3C065FD19A324B100280FA0 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		A3C065FF19A327E600280FA0 /* MatchedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchedViewController.h; sourceTree = "<group>"; };
+		A3C0660019A327E600280FA0 /* MatchedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchedViewController.m; sourceTree = "<group>"; };
+		A3C0660219A3462C00280FA0 /* DefinedBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinedBeacon.h; sourceTree = "<group>"; };
+		A3C0660319A3462C00280FA0 /* DefinedBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinedBeacon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C065EC19A1DB6000280FA0 /* CoreLocation.framework in Frameworks */,
+				A3C065EA19A1DB5900280FA0 /* CoreBluetooth.framework in Frameworks */,
 				A3C065B719A1DAB900280FA0 /* CoreGraphics.framework in Frameworks */,
 				A3C065B919A1DAB900280FA0 /* UIKit.framework in Frameworks */,
 				A3C065B519A1DAB900280FA0 /* Foundation.framework in Frameworks */,
@@ -101,6 +131,8 @@
 		A3C065B319A1DAB900280FA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3C065EB19A1DB6000280FA0 /* CoreLocation.framework */,
+				A3C065E919A1DB5900280FA0 /* CoreBluetooth.framework */,
 				A3C065B419A1DAB900280FA0 /* Foundation.framework */,
 				A3C065B619A1DAB900280FA0 /* CoreGraphics.framework */,
 				A3C065B819A1DAB900280FA0 /* UIKit.framework */,
@@ -119,6 +151,18 @@
 				A3C065CA19A1DABA00280FA0 /* ViewController.m */,
 				A3C065CC19A1DABA00280FA0 /* Images.xcassets */,
 				A3C065BB19A1DAB900280FA0 /* Supporting Files */,
+				A3C065ED19A1F3CD00280FA0 /* BeaconViewController.h */,
+				A3C065EE19A1F3CD00280FA0 /* BeaconViewController.m */,
+				A3C065F419A3204D00280FA0 /* ShopViewController.h */,
+				A3C065F519A3204D00280FA0 /* ShopViewController.m */,
+				A3C065F919A322FF00280FA0 /* DealOfferViewController.h */,
+				A3C065FA19A322FF00280FA0 /* DealOfferViewController.m */,
+				A3C065FC19A324B100280FA0 /* QRViewController.h */,
+				A3C065FD19A324B100280FA0 /* QRViewController.m */,
+				A3C065FF19A327E600280FA0 /* MatchedViewController.h */,
+				A3C0660019A327E600280FA0 /* MatchedViewController.m */,
+				A3C0660219A3462C00280FA0 /* DefinedBeacon.h */,
+				A3C0660319A3462C00280FA0 /* DefinedBeacon.m */,
 			);
 			path = iosBeaconbabe;
 			sourceTree = "<group>";
@@ -126,6 +170,9 @@
 		A3C065BB19A1DAB900280FA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3C065F719A322EA00280FA0 /* beef.jpeg */,
+				A3C065F219A31EA100280FA0 /* images.jpeg */,
+				A3C065F019A31E0700280FA0 /* QRcode1_320x480_new.png */,
 				A3C065BC19A1DAB900280FA0 /* iosBeaconbabe-Info.plist */,
 				A3C065BD19A1DAB900280FA0 /* InfoPlist.strings */,
 				A3C065C019A1DAB900280FA0 /* main.m */,
@@ -155,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3C065B019A1DAB900280FA0 /* iosBeaconbabe */ = {
+		A3C065B019A1DAB900280FA0 /* BeaconBabe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3C065E319A1DABA00280FA0 /* Build configuration list for PBXNativeTarget "iosBeaconbabe" */;
+			buildConfigurationList = A3C065E319A1DABA00280FA0 /* Build configuration list for PBXNativeTarget "BeaconBabe" */;
 			buildPhases = (
 				A3C065AD19A1DAB900280FA0 /* Sources */,
 				A3C065AE19A1DAB900280FA0 /* Frameworks */,
@@ -167,7 +214,7 @@
 			);
 			dependencies = (
 			);
-			name = iosBeaconbabe;
+			name = BeaconBabe;
 			productName = iosBeaconbabe;
 			productReference = A3C065B119A1DAB900280FA0 /* iosBeaconbabe.app */;
 			productType = "com.apple.product-type.application";
@@ -217,7 +264,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3C065B019A1DAB900280FA0 /* iosBeaconbabe */,
+				A3C065B019A1DAB900280FA0 /* BeaconBabe */,
 				A3C065D119A1DABA00280FA0 /* iosBeaconbabeTests */,
 			);
 		};
@@ -229,7 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C065CD19A1DABA00280FA0 /* Images.xcassets in Resources */,
+				A3C065F319A31EA100280FA0 /* images.jpeg in Resources */,
 				A3C065BF19A1DAB900280FA0 /* InfoPlist.strings in Resources */,
+				A3C065F819A322EA00280FA0 /* beef.jpeg in Resources */,
+				A3C065F119A31E0700280FA0 /* QRcode1_320x480_new.png in Resources */,
 				A3C065C819A1DABA00280FA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C065FE19A324B100280FA0 /* QRViewController.m in Sources */,
+				A3C065EF19A1F3CD00280FA0 /* BeaconViewController.m in Sources */,
 				A3C065CB19A1DABA00280FA0 /* ViewController.m in Sources */,
 				A3C065C519A1DAB900280FA0 /* AppDelegate.m in Sources */,
+				A3C065FB19A322FF00280FA0 /* DealOfferViewController.m in Sources */,
+				A3C065F619A3204D00280FA0 /* ShopViewController.m in Sources */,
 				A3C065C119A1DAB900280FA0 /* main.m in Sources */,
+				A3C0660119A327E600280FA0 /* MatchedViewController.m in Sources */,
+				A3C0660419A3462C00280FA0 /* DefinedBeacon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +324,7 @@
 /* Begin PBXTargetDependency section */
 		A3C065D819A1DABA00280FA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3C065B019A1DAB900280FA0 /* iosBeaconbabe */;
+			target = A3C065B019A1DAB900280FA0 /* BeaconBabe */;
 			targetProxy = A3C065D719A1DABA00280FA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3C065E319A1DABA00280FA0 /* Build configuration list for PBXNativeTarget "iosBeaconbabe" */ = {
+		A3C065E319A1DABA00280FA0 /* Build configuration list for PBXNativeTarget "BeaconBabe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3C065E419A1DABA00280FA0 /* Debug */,

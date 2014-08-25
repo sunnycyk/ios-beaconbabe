@@ -13,8 +13,8 @@ You can find our presentation here: [http://www.slideshare.net/AK51/beaconbabe-o
 
 Contributors
 
-Andy Kong: [andykong51@gmail.com](mailto:andykong51@gmail.com)
-Matthew Chiu: [mchiu77@gmail.com](mailto:mchiu77@gmail.com)
-Sunny Cheung: [sunnycyk@yahoo.com] (mailto:sunnycyk@yahoo.com)
-Edward Fung: [edwardfung123@gmail.com] (mailto:edwardfung123@gmail.com)
-Niko Chiu: [niko880520@gmail.com] (mailto:niko880520@gmail.com)
+Andy Kong: [andykong51@gmail.com](mailto:andykong51@gmail.com)  
+Matthew Chiu: [mchiu77@gmail.com](mailto:mchiu77@gmail.com)   
+Sunny Cheung: [sunnycyk@yahoo.com] (mailto:sunnycyk@yahoo.com)   
+Edward Fung: [edwardfung123@gmail.com] (mailto:edwardfung123@gmail.com)   
+Niko Chiu: [niko880520@gmail.com] (mailto:niko880520@gmail.com)   

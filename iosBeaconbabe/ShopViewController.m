@@ -159,13 +159,13 @@
         }
         else {
             NSLog(@"%@",error);
-            /*[self findMatch];
-            [theTimer invalidate];
-            [self.locationManager stopMonitoringForRegion:self.beaconRegion];
-            [self.locationManager stopRangingBeaconsInRegion:self.beaconRegion];*/
-            
         }
     }];
     [postDataTask resume];
+   /* [self findMatch];
+    [theTimer invalidate];
+    [self.locationManager stopMonitoringForRegion:self.beaconRegion];
+    [self.locationManager stopRangingBeaconsInRegion:self.beaconRegion];*/
+
 }
 @end

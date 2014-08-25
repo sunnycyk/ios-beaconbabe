@@ -62,7 +62,7 @@
     for (CLBeacon *beacon in beacons) {
         
         
-        if (beacon.major.intValue == [DefinedBeacon beaconRegionMajor:@"hidden"] && beacon.rssi > -65 && beacon.rssi)  {
+        if (beacon.major.intValue == [DefinedBeacon beaconRegionMajor:@"xyz"] && beacon.rssi > -65 && beacon.rssi)  {
             NSLog(@"Shop view major: %@ minor: %@ rssi: %ld", beacon.major, beacon.minor , beacon.rssi);
             [self.locationManager stopMonitoringForRegion:self.beaconRegion];
             [self.locationManager stopRangingBeaconsInRegion:self.beaconRegion];
